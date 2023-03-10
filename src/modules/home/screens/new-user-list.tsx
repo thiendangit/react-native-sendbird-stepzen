@@ -76,7 +76,7 @@ export const NewUserList: React.FC = function () {
         data={users}
         extraData={users}
         renderItem={renderItem}
-        style={tailwind('w-[90%] flex')}
+        // style={tailwind('w-[90%] flex')}
       />
     </HomeLayout>
   )
